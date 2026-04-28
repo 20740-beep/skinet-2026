@@ -15,12 +15,12 @@ import { TextInputComponent } from "../../../shared/components/text-input/text-i
   imports: [
     ReactiveFormsModule,
     MatCard,
-    MatFormField,
-    MatLabel,
-    MatInput,
+    //MatFormField,
+    //MatLabel,
+    //MatInput,
     MatButton,
     JsonPipe,
-    MatError,
+    //MatError,
     TextInputComponent
 ],
   templateUrl: './register.component.html',
