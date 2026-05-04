@@ -1,7 +1,8 @@
-namespace Core.Entities;
+namespace Core.Entities.OrderAggregate;
 
-public class Address : BaseEntity
+public class ShippingAddress
 {
+    public required string Name { get; set; }
     public required string Line1 { get; set; }
     public string? Line2 { get; set; }
     public required string City { get; set; }
